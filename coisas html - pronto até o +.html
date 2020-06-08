@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> CALCULADORA </title>
+    </head>
+    <body background="green-ranger-dragonzord.jpg"
+    
+    //pq o span ta invalido ali???  
+        <span> CALCULADORA</span>
+
+
+        
+    <p>32v500.9
+<form>
+    <table cellspacing="13" celpadding="2">
+        
+    </table>
+        
+        
+     <input type="number" name="resultado" id="primeiroNumero"> <p>
+     <input type="number" name="primeiro número" id="segundoNumero"> <p>
+     
+ resultado<input type="number" name="segundo número" id="resultado" readonly 
+ ><tr> 
+               
+               
+            </tr>
+
+    </table>
+</form>
+
+<script>
+    function somar(irásomarosnumeros) {
+        let primeiroNumero = document.getElementById("primeiroNumero").value;
+       let segundoNumero = document.getElementById("segundoNumero").value;
+       document.getElementById("resultado").value = Number(primeiroNumero) + Number(segundoNumero);
+   
+    }
+    
+
+// PERCEBI QUE SEM OS ; TAMBEM FUNCIONA! ???
+    
+
+console.log(soma);
+
+console.log(primeiroNumero + "+" + segundoNumero + "=" + soma);
+
+ 
+</script>
+</body>
+</html>
+
+// COMO APARECE OS BOTOES ABAIXO SE ELES ESTÃO FORA DO <./BODY>???
+
+
+<td><input type="button" value="+" onclick="somar()">  
+</td>
+<td><input type="button" value="-" onclick="diminuir()">
+</td>
+<tr><input type="button" value="*" onclick="multiplicar()">
+</tr>
+<td><input type="button" value="/"onclick="dividir()">
+</td>           
+
+
+
+
